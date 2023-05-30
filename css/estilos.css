@@ -3,18 +3,22 @@ body {
 }
 
 #destacados {
+	text-shadow: 0 0 3px white;
 	background-color: #669999;
 }
 
 #ofertas {
+	box-shadow: 4px 8px;
 	background-color: #F7D988;
 }
 
 #disponible {
+	box-shadow: 4px 8px #D46A6A;
 	background-color: #F7A188;
 }
 
 #contenido > section > h1 {
+
 	padding: 11px;
 	text-align: center;
 }
@@ -38,6 +42,7 @@ footer {
 }
 
 #destacados .contenedor > div {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
@@ -61,5 +66,8 @@ footer {
 		width: 25%;
 		}
 
-
+#ofertas h1 {
+	
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
 
